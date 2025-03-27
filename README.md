@@ -1,4 +1,4 @@
-# Algorithms and Data Structures
+# Data Structures and Algorithms course
 
 ## Overview
 This repository contains implementations and explanations of fundamental algorithms and data structures covered in the **Algorithms and Data Structures** course. It includes assignments, problems from past exams, and quizzes. The content is divided into three main parts:
