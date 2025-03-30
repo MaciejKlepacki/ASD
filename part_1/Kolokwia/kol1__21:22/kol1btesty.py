@@ -4,8 +4,6 @@ from kol1btest_spec import ALLOWED_TIME, TEST_SPEC, gentest
 
 from copy import deepcopy
 
-
-
 def copyarg( arg ):
     return deepcopy(arg)
 
