@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains implementations and explanations of fundamental algorithms and data structures covered in the **Algorithms and Data Structures** course conducted by **AGH University of Cracow**. It includes assignments, problems from past exams, and quizzes. The content is divided into three main parts:
+This repository contains implementations and explanations of fundamental algorithms and data structures covered in the **Algorithms and Data Structures** course run by **AGH University of Cracow**. It includes assignments, problems from past exams, and quizzes. The content is divided into three main parts:
 
 ## Part 1: Sorting and Basic Algorithms
 
