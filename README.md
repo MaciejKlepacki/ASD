@@ -1,9 +1,11 @@
 # Data Structures and Algorithms course
 
 ## Overview
-This repository contains implementations and explanations of fundamental algorithms and data structures covered in the **Algorithms and Data Structures** course. It includes assignments, problems from past exams, and quizzes. The content is divided into three main parts:
+
+This repository contains implementations and explanations of fundamental algorithms and data structures covered in the **Algorithms and Data Structures** course conducted by **AGH University of Cracow**. It includes assignments, problems from past exams, and quizzes. The content is divided into three main parts:
 
 ## Part 1: Sorting and Basic Algorithms
+
 This section focuses on sorting algorithms and fundamental data structures.
 
 - **Sorting Algorithms:**
@@ -13,6 +15,7 @@ This section focuses on sorting algorithms and fundamental data structures.
   - Arrays, Linked Lists, Queues, Stacks.
 
 ## Part 2: Graph Algorithms and Data Structures
+
 This section covers fundamental graph algorithms and advanced data structures.
 
 - **Graph Algorithms:**
@@ -25,6 +28,7 @@ This section covers fundamental graph algorithms and advanced data structures.
   - Associative arrays: Binary Search Trees (BST), Red-Black Trees, Hash Tables, B-Trees.
 
 ## Part 3: Algorithm Design Techniques
+
 This section introduces algorithmic paradigms for solving complex problems.
 
 - **Dynamic Programming:**
