@@ -70,6 +70,5 @@ def f(T):
 
     return max
 
-
 # Zamien all_tests=False na all_tests=True zeby uruchomic wszystkie testy
 runtests( f, all_tests=True )
