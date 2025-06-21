@@ -3,6 +3,8 @@
 
 import sys
 
+sys.setrecursionlimit(20000)
+
 TIMER = False
 RERAISE = True
 PRINT_STATUS = False
@@ -104,21 +106,23 @@ def internal_runtests( copyarg, printarg, printhint, printsol, check, generate_t
     arg  = copyarg(d["arg"])
     arg2 = copyarg(d["arg"])
     hint = deepcopy(d["hint"])
-    printarg( *arg )
+    #printarg( *arg )
+    printarg( arg )
     printhint( hint )
     try:
       if TIMER:
         signal( SIGALRM, timeout_handler )
         alarm( ACC_TIME + 1)
       time_s = time.time()
-      end    = time.time() 
       sol    = f( *arg )
+      #sol    = f( arg )
       time_e = time.time()
       
       if TIMER:
         alarm(0)
       printsol( sol )
-      res = check( *arg2, hint, sol )
+#      res = check( *arg2, hint, sol )
+      res = check( arg2, hint, sol )
       if ACC_TIME > 0 and float(time_e-time_s) > ACC_TIME:
         timeout += 1
         status_line += ' T'
